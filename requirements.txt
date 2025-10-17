@@ -1,0 +1,11 @@
+# Push&Blink Project Dependencies
+
+# Important: Python version must be below 3.11
+# PyFirmata is not compatible with Python 3.11+ (use Python 3.10 or lower)
+python_version < 3.11
+
+# Core library for Arduino communication
+pyfirmata==1.1.0
+
+# Utility libraries
+time
